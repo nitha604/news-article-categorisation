@@ -1,0 +1,43 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets (large files - loaded dynamically via Hugging Face/script)
+*.csv
+*.tsv
+data/
+
+# Model weights & Checkpoints (large files saved in Drive)
+*.pkl
+*.pt
+*.bin
+*.h5
+*.safetensors
+distilbert_model/
+distilbert_checkpoints/
+models/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs & Training runs
+logs/
+runs/
+
+# Streamlit files (excluded from repository)
+app.py
+07_run_streamlit_in_colab.ipynb
+.streamlit/
+
+# Operating System files
+.DS_Store
+Thumbs.db
